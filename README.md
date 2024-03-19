@@ -35,8 +35,14 @@ npm test
 ## Docs
 
 Docs are generated through typedoc and also available on the
-wiki.
+[wiki](https://github.com/ikcede/hinge-data-ts-wrapper/wiki).
 
 ```sh
 npx typedoc
+```
+
+Github wiki style docs
+
+```sh
+npx typedoc --plugin typedoc-plugin-markdown --plugin typedoc-github-wiki-theme --out docs src/hinge-wrapper.ts
 ```
