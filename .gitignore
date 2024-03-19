@@ -1,3 +1,9 @@
+.DS_Store
+
+# Compiled JS and Docs
+build
+docs
+
 # Logs
 logs
 *.log
